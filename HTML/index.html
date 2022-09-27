@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   
+<head> <!--informaçõe gerais sobre a página-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Barreiro - Apresentação Pessoal</title>
+    <link rel="stylesheet" href="../CSS/style.css"><!--Estilização da página. / conectando ou linkando o html ao css. -->
+</head>
+
+<body><!--Corpo da página-->
+    <div class="content">
+        <nav><!--barra de navegação da página-->           
+            <ul>
+                <li>
+                    <a href="#text1">Sobre Mim</a>
+                </li>
+                <li>
+                    <a href="#text2">Hobbies e Interesses</a>
+                </li>
+                <li>
+                    <a href="#text3">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    
+    <header><!--Cabeçalho da página-->                      
+            <div class="img">
+                <img src="../CSS/Imagens/IMG_20211101_202025_568.jpg"></img>
+            </div> 
+                <h1>Felipe Barreiro</h1>
+                <h2>Estudante de programação</h2>            
+    </header>
+    
+        <main><!--Minhas informações-->
+            <section><!--Seção ao texto 1 "Sobre Mim"-->                            
+                <h3>Sobre Mim<a name="text1"></a></h3>
+                    <p>
+                        Me chamo Felipe Barreiro Nascimento, tenho 21 anos. 
+                        Nascido e criado na cidade do Rio de Janeiro. 
+                        Atualmente, estou estudando em um curso na área de programação desenvolvido por uma escola 
+                        especializada em formações para profissões digitais, também conhecida como Resilia.  
+                    </p>               
+            </section>
+            <section><!--Seção ao texto 2 "Hobbies e Interesses"-->
+                <h3>Hobbies e Interesses<a name="text2"></a></h3>
+                    <p>
+                        Eu costumo sair com meus amigos, assistir séries e filmes ou jogar como parte do meu horário de lazer. 
+                        Costumo estudar bastante a área de programação por ter crescido com a oportunidade de ter um
+                        computador em casa, portanto acabei me interssando por essa área desde cedo.
+            
+                    </p>                  
+            </section>
+            <section><!--Seção ao texto 3 "Contato" = Formulário-->
+                <div class="text3"> 
+                <h3>Contato<a name="text3"></a></h3>                      
+                <form action="/action_page.php">
+                    <label for="fname">Nome</label><br>
+                    <input type="text" id="fname" name="fname" ><br>
+                    <label for="lname">Sobrenome</label><br>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <input type="submit" value="Enviar">
+                  </form>  
+                </div>         
+            </section>
+                    <br>
+                    <br>                 
+                    <h4><!--Botão "Home"=Voltar ao início-->
+                        <a href="#">Voltar ao Início</a>                                                          
+                    </h4>                            
+        </main>
+    </div>
+   
+</body>
+</html>
